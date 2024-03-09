@@ -1006,8 +1006,8 @@ nav .navigation li a {
   .third {
     
     margin: 0 auto;
-    margin-top: -120px;
-    width: 70%;
+    
+    width: 100%;
   }
 
   .third .third1,
