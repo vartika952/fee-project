@@ -49,7 +49,6 @@ nav .navigation li a {
   text-align: center;
 }
 
-
 .checkbtn {
   font-size: 30px;
   color: rgb(255, 249, 249);
@@ -63,15 +62,13 @@ nav .navigation li a {
   display: none;
 }
 
-
-
-.main{
+.main {
   width: 100%;
   background-image: url(images/main2.png);
-background-size: 100% 400px;
-background-repeat: no-repeat;
-text-align: center;
-padding-bottom: 25px;
+  background-size: 100% 400px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 25px;
 }
 .home .heading1 p {
   font-size: 4rem;
@@ -120,14 +117,12 @@ padding-bottom: 25px;
   margin-top: 10px;
 }
 
-
 /*sec section*/
 .sec .box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
- 
 }
 .sec .box-container .box {
   width: 325px;
@@ -150,7 +145,7 @@ padding-bottom: 25px;
   font-weight: bold;
   font-size: 1.2rem;
 }
-.sec .box-container .box .content p{
+.sec .box-container .box .content p {
   text-align: center;
   font-size: 1.1rem;
   padding: 4px 5px;
@@ -171,7 +166,6 @@ padding-bottom: 25px;
   color: #ffffff;
 }
 
-
 /*About us*/
 .main3 {
   margin-top: 100px;
@@ -186,7 +180,7 @@ padding-bottom: 25px;
   width: 30%;
   text-align: left;
 }
-.main3 .content1 .heading h2{
+.main3 .content1 .heading h2 {
   font-size: 2.8rem;
   letter-spacing: 0px;
   color: #333332;
@@ -194,7 +188,7 @@ padding-bottom: 25px;
   line-height: 55px;
 }
 
-.main3 .content1 .cont p{
+.main3 .content1 .cont p {
   padding: 10px;
   width: 100%;
   font-size: 18px;
@@ -217,7 +211,7 @@ padding-bottom: 25px;
 .main3 .content2 .sym img {
   object-fit: cover;
 }
-.main3 .content2 .cont p{
+.main3 .content2 .cont p {
   margin-left: 10px;
   font-size: 1.2rem;
   letter-spacing: 0px;
@@ -236,7 +230,6 @@ padding-bottom: 25px;
   font-family: "Bernadette";
 }
 .a {
-  
   width: 400px;
   height: 400px;
   background-image: url("images/back.png");
@@ -246,13 +239,11 @@ padding-bottom: 25px;
   -webkit-mask-size: 100%;
   padding-bottom: 200px;
   position: absolute;
-  
+
   top: 170%; /* Adjust as needed */
   left: 50%; /* Adjust as needed */
   transform: translate(-50%, -50%);
-
 }
-
 
 /*features section*/
 .main2 {
@@ -260,7 +251,7 @@ padding-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .main2 .image-grid {
   display: grid;
@@ -295,7 +286,7 @@ padding-bottom: 25px;
   font-family: "Bernadette";
   text-align: center;
 }
-.features .main2 .content-box .content p{
+.features .main2 .content-box .content p {
   font-size: 1.1rem;
   letter-spacing: 0px;
   line-height: 19px;
@@ -307,10 +298,501 @@ padding-bottom: 25px;
   padding-bottom: 25px;
 }
 
+/*services*/
+.service {
+  overflow-x: hidden;
+  background-color: #f4f4f4;
+  display: flex;
+  height: auto;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.service .div60 {
+  padding-top: 80px;
+  margin-left: 125px;
+  flex: 0 0 50%;
+}
+.service .div40 {
+  flex: 0 0 50%;
+  position: relative;
+}
+.service .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; /* Adjust as needed */
+}
+.service .div60 .content1 .heading h2 {
+  font-size: 3rem;
+  letter-spacing: -3px;
+  word-spacing: 0.5rem;
+  color: #333332;
+  font-family: "Bernadette";
+  line-height: 55px;
+}
+.service .div60 .content1 .cont p {
+  padding: 10px;
+  width: 75%;
+  font-size: 1.1rem;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #040404;
+  font-weight: 400;
+  font-family: "Lato";
+}
+.div3 {
+  position: absolute;
+  top: 365%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  background-image: linear-gradient(135deg, #dd813b 0%, #3f5199 100%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icon-box {
+  border: 0.2px dotted #ffffff; /* Thin border for each icon box */
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.icon-img {
+  justify-content: center;
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+}
+
+.icon-name {
+  font-size: 1.1rem;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Lato";
+  text-align: center;
+}
+
+/*team section*/
+.team {
+  margin: 0 120px;
+}
+.team .heading h2 {
+  font-size: 3.6rem;
+  word-spacing: 9px;
+  letter-spacing: -4px;
+  color: #333332;
+  font-family: "Bernadette";
+  text-align: center;
+}
+.team .content {
+  word-spacing: 5px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #313131;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.container {
+  padding-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .card {
+  padding: 7px;
+}
+.container .card .img {
+  width: 200px;
+  height: 225px;
+}
+.container .card .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.container .card .title {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #333332;
+  font-weight: 500;
+  font-family: "Lato";
+}
+.container .card .des {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #a3a3a3;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+.team .color {
+  position: absolute;
+  z-index: -1;
+  margin-top: -200px;
+  margin-left: -45px;
+  width: 1175px;
+  height: 200px;
+  background-color: #9e90903b;
+}
+
+/*anita section*/
+.anita {
+  margin: 5vw 0px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-left: 120px;
+}
+.anita .div40 {
+  width: 35%;
+}
+.anita .div40 .heading h2 {
+  font-size: 3.6rem;
+  letter-spacing: -1px;
+  color: #333332;
+  font-family: "Bernadette";
+}
+.anita .div40 .des h3 {
+  margin-top: -20px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #505050;
+  font-weight: 700;
+  font-family: "Lato";
+  margin-bottom: 20px;
+}
+.anita .div40 .content {
+  font-size: 1rem;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #040404;
+  font-weight: 300;
+  font-family: "Lato";
+  margin-bottom: 20px;
+}
+.anita .div40 .bars .ba .progress h3 {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color: #333332;
+  font-weight: 500;
+  font-family: "Lato";
+  justify-content: space-between;
+  display: flex;
+  padding: 7px 0px;
+}
+.anita .div40 .bars .ba .progress .bar {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.anita .div40 .bars .ba .progress .bar span {
+  display: block;
+  height: 100%;
+  background-image: linear-gradient(135deg, #dd813b 0%, #3f5199 100%);
+}
+.anita .div40 .bars .ba .progress:nth-child(1) .bar span {
+  width: 80%;
+}
+.anita .div40 .bars .ba .progress:nth-child(2) .bar span {
+  width: 80%;
+}
+.anita .div40 .bars .ba .progress:nth-child(3) .bar span {
+  width: 80%;
+}
+.anita .div60 {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.anita .div60 .img {
+  width: 50%;
+}
+.anita .div60 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.anita .div60 .cont1 {
+  width: 50%;
+  background-image: linear-gradient(135deg, #dd813b 0%, #3f5199 100%);
+  text-align: center;
+}
+.anita .div60 .cont1 .p p {
+  margin-top: 20px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Lato";
+}
+
+.anita .div60 .cont1 .icons {
+  margin-top: 275px;
+  margin-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.anita .div60 .cont1 .icons .icon img {
+  width: 85%;
+
+  object-fit: cover;
+}
+
+/*pricing*/
+.pricing {
+  height: 600px;
+  display: flex;
+  flex: wrap;
+}
+.pricing .d30 {
+  width: 30%;
+  height: 600px;
+  background-image: linear-gradient(135deg, #dd813b 0%, #3f5199 100%);
+}
+.pricing .d70 {
+  background-color: #9e90903b;
+  width: 70%;
+}
+.pricing .d70 .content {
+  float: right;
+  width: 65%;
+  margin-right: 50px;
+  padding-top: 125px;
+}
+.pricing .d70 h3 {
+  width: 80%;
+  font-size: 3.6rem;
+  letter-spacing: 1px;
+  color: #333332;
+  font-family: "Bernadette";
+  line-height: 1.25;
+  padding-bottom: 40px;
+}
+.pricing .d70 .p1 {
+  font-size: 1.2rem;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #040404;
+  font-weight: 700;
+  font-family: "Lato";
+  padding-bottom: 25px;
+}
+.pricing .d70 .p2 {
+  font-size: 1.2rem;
+  letter-spacing: 0px;
+  line-height: 27px;
+  color: #040404;
+  font-weight: 300;
+  font-family: "Lato";
+}
+.third {
+  text-align: center;
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: -500px;
+  margin-left: 130px;
+}
+.third .third1 {
+  width: 50%;
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+.third .third1 h2 {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: -2px;
+  color: #333332;
+  font-family: "Bernadette";
+}
+.third .third1 .p1 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #333332;
+  font-weight: 700;
+  font-family: "Lato";
+}
+.third .third1 .p2 {
+  font-size: 5rem;
+  letter-spacing: -4px;
+  background-image: linear-gradient(135deg, #dd813b 0%, #3f5199 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 800;
+  font-family: "Myriad Pro";
+}
+.third .third1 .p3 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: #333332;
+  font-weight: 700;
+  font-family: "Lato";
+  padding-bottom: 20px;
+}
+.third .third1 .p4 {
+  font-size: 1.1rem;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #040404;
+  font-weight: 300;
+  font-family: "Lato";
+}
+.third .third2 {
+  padding-top: 40px;
+  min-width: 50%;
+  height: 400px;
+  background-image: linear-gradient(135deg, #dd813b 0%, #3f5199 100%);
+}
+.third .third2 h2 {
+  font-size: 4.5rem;
+  letter-spacing: -4px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Myriad Pro";
+}
+.third .third2 .p1 {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+}
+.third .third2 .list {
+  list-style: none;
+}
+.third .third2 .list :before {
+  content: "✓";
+  font-weight: bold;
+}
+.third .third2 .list .li{
+  padding: 4px 0;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Lato";
+}
+.third .third2 .btn {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.third .third2 .btn button {
+  border: #ffffff;
+  border-radius: 30px;
+  padding: 7px;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #020202;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+/*ending section*/
+.end {
+  margin-top: 350px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 25px;
+  background-image: linear-gradient(90deg, #b56930 0%, #33427d 100%);
+}
+.end::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-image: url("images/endback.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.612;
+}
+.end h2 {
+  padding-top: 50px;
+  font-size: 50px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  font-family: "Bernadette";
+}
+.end .icons {
+  padding-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.foot {
+  padding-top: 75px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.footicon {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  justify-content: center;
+}
+.foots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.foot .footicon .foots .content h2 {
+  font-size: 1.3rem;
+  letter-spacing: 0px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #494949;
+  font-weight: 700;
+  font-family: "Lato";
+  padding-bottom: 5px;
+}
+.foot .footicon .foots .content p {
+  font-size: 1.1rem;
+  letter-spacing: 0px;
+  line-height: 19px;
+  color: #494949;
+  font-weight: 400;
+  font-family: "Lato";
+}
+.foot .endd {
+  padding-top: 30px;
+
+  font-size: 0.9rem;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #2f2f2f;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+}
 
 @media screen and (max-width: 576px) {
-  *
-  {
+  * {
     font-size: 12.5px;
   }
   nav {
@@ -346,7 +828,6 @@ padding-bottom: 25px;
     padding-top: 25px;
   }
 
-
   .main3 {
     margin-top: 50px; /* Adjust margin-top as needed for smaller screens */
     gap: 20px; /* Adjust gap between items */
@@ -366,9 +847,9 @@ padding-bottom: 25px;
     margin-left: 0; /* Remove left margin for content2 */
   }
 
-  .main3 .content2 .sym img{
-   display: none;
-     /* Remove left margin for .sym */
+  .main3 .content2 .sym img {
+    display: none;
+    /* Remove left margin for .sym */
   }
 
   .main3 .content2 .cont p {
@@ -382,7 +863,6 @@ padding-bottom: 25px;
   }
 
   .a {
-    
     width: 100%; /* Adjust width of image container */
     max-width: 300px; /* Set maximum width for image container */
     height: 300px; /* Adjust height of image container */
@@ -391,7 +871,6 @@ padding-bottom: 25px;
     transform: initial; /* Remove transform */
     position: static; /* Set position to static */
   }
-
 
   .main2 {
     margin-bottom: 100px; /* Adjust margin as needed for smaller screens */
@@ -414,7 +893,7 @@ padding-bottom: 25px;
     padding: 10px; /* Adjust padding as needed for smaller screens */
     max-width: 90%; /* Adjust max-width for smaller screens */
     margin-top: 20px; /* Adjust margin-top as needed for smaller screens */
-    order: 3; 
+    order: 3;
   }
 
   .features .main2 .content-box .heading {
@@ -427,22 +906,136 @@ padding-bottom: 25px;
     line-height: 1.5; /* Adjust line-height for smaller screens */
     padding-bottom: 15px; /* Adjust padding-bottom for smaller screens */
   }
-  
 
+  .service {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+  }
+  .service .div60 {
+    margin: 0 auto; /* Remove left margin */
+    padding-top: 20px; /* Adjust padding */
+    flex: 0 0 100%; /* Set to full width */
+  }
 
+  .service .div60 .content1 .cont p {
+    width: 100%;
+  }
+  .service .div40 {
+    padding-top: 30px;
+    flex: 0 0 100%; /* Set to full width */
+  }
+  .div3 {
+    position: static; /* Change to relative positioning */
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); /* Change to single column layout */
+    width: 100%; /* Adjust the width as needed */
+    max-width: 300px; /* Limit the maximum width */
+    margin: 0 50vw; /* Center the grid horizontally */
+  }
+  .team {
+    margin: 0 auto;
+  }
+  .container .card .img {
+    width: 175px;
+    height: 75%;
+  }
+  .team .container {
+    padding-top: 30px;
+    justify-content: space-around;
+  }
+  .team .container .card {
+    padding-bottom: 15px;
+  }
+  .team .container .card .title {
+    padding-top: 5px;
+  }
+
+  .team .color {
+    display: none;
+  }
+
+  .anita {
+    margin: auto;
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+  .anita .div40 {
+    margin: auto;
+    width: 90%;
+  }
+  .anita .div60 {
+    width: 100%;
+  }
+  .anita .div60 .img {
+    margin: auto;
+    width: 90%;
+    height: 40%;
+  }
+  .anita .div60 .cont1 {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 100px;
+  }
+  .anita .div60 .cont1 .icons {
+    justify-content: space-around;
+    margin: 25px;
+  }
+  .pricing {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pricing .d30{display: none;}
+  .pricing .d70 {
+    width: 100%;
+  }
+  .pricing .d70 h3{
+    width: 100%;
+    text-align: center;
+
+  }
+  .pricing .d70 .content {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .third {
+    
+    margin: 0 auto;
+    margin-top: -120px;
+    width: 70%;
+  }
+
+  .third .third1,
+  .third .third2 {
+    width: 100%;
+  }
+  .third .third2 h2{font-size: 5rem;}
+  .third .third2 .p1{font-size: 2rem;}
+  .third .third2 .list .li{
+    list-style: none;
+    padding-left: 20px; /* Add padding to adjust bullet point position */
+    font-size:large;
+  }
+
+  .third .third2 .btn {
+    text-align: center;
+  }
 
 }
 
 @media screen and (min-width: 577px) and (max-width: 816px) {
-  *
-  {
+  * {
     font-size: 15px;
   }
   nav {
     text-align: center;
     margin-top: -10px;
   }
- 
 
   nav .navigation {
     width: 100%;
