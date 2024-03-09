@@ -1014,8 +1014,7 @@ nav .navigation li a {
   .third .third2 {
     width: 100%;
   }
-  .third .third2 h2{font-size: 5rem;}
-  .third .third2 .p1{font-size: 2rem;}
+ 
   .third .third2 .list .li{
     list-style: none;
     padding-left: 20px; /* Add padding to adjust bullet point position */
